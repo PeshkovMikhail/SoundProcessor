@@ -1,0 +1,2 @@
+Mute processor
+usage: mute start_second last_second
