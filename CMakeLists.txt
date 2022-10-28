@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.2)
+project(sound_processor)
+include_directories("/")
+set(CMAKE_CXX_STANDARD 17)
+file(GLOB APP_SRC *.cpp)
+add_executable(sound_processor ${APP_SRC})
